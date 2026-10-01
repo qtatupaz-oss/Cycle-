@@ -387,7 +387,7 @@ p.screen-sub { color: var(--color-ink-soft); font-size: 0.85rem; margin: 0 0 18p
 .locator-dist { font-size: 0.72rem; color: var(--color-secondary); font-weight: 600; }
 
 .gate { display: flex; flex-direction: column; height: 100%; justify-content: center; max-width: 260px; margin: 0 auto; }
-.gate .loop-icon { width: 52px; height: 52px; color: var(--color-primary); margin: 0 auto 12px; }
+.gate .loop-icon { width: 52px; height: 52px; color: var(--color-primary); object-fit: contain; margin: 0 auto 12px; display: block; }
 .gate h2 { text-align: center; font-family: var(--font-display); margin: 0 0 4px; }
 .gate p.sub { text-align: center; color: var(--color-ink-soft); font-size: 0.82rem; margin: 0 0 18px; }
 .segmented { display: flex; background: var(--color-surface-2); border-radius: 10px; padding: 3px; margin-bottom: 14px; }
