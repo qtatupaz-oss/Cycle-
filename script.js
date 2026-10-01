@@ -219,7 +219,7 @@
 
   function renderGate(){
     return '<div class="gate">' +
-      loopIconSVG('loop-icon') +
+      '<img src="Logo Alt.png" alt="Cycle+ logo" class="loop-icon">' +
       '<h2>Welcome to Cycle+</h2>' +
       '<p class="sub">Track points, find kiosks, and redeem rewards.</p>' +
       '<div class="segmented">' +
