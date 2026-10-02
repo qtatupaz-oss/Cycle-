@@ -80,9 +80,10 @@
     var html = '';
     if (kioskStep === 'idle') {
       html = '<div class="kiosk-pad kiosk-idle">' +
-        '<img src="CycleQR.png" alt="Cycle+ QR code" class="kiosk-qr">' +
+        '<img src="Logo Alt.png" alt="Cycle+ logo" class="loop-icon">' +
         '<h2>Welcome to Cycle+</h2>' +
         '<p>Scan your Cycle+ QR code to start earning points for recycling.</p>' +
+        '<img src="viewfinder.png" alt="QR scanner viewfinder" class="kiosk-viewfinder">' +
         '<button class="btn" id="k-scan">Scan QR Code</button>' +
         '</div>';
     } else if (kioskStep === 'scanning') {
